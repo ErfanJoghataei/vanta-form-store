@@ -1,12 +1,12 @@
 const products = [
-  {id:1,name:'Contour Wool Coat',type:'outerwear',price:320,detail:'Italian wool / Cocoa',badge:'NEW',colors:['#342e2b','#d9d1c2'],image:'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=86'},
-  {id:2,name:'Folded Shoulder Shirt',type:'tops',price:145,detail:'Organic poplin / Chalk',badge:'DROP 04',colors:['#e8e5dc','#1a1a1a'],image:'https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=86'},
-  {id:3,name:'Column Knit Dress',type:'tops',price:190,detail:'Merino blend / Ink',badge:'',colors:['#171717','#784c39'],image:'https://images.unsplash.com/photo-1533659828870-95ee305cee3e?auto=format&fit=crop&w=1000&q=86'},
-  {id:4,name:'Arc Mini Bag',type:'accessories',price:175,detail:'Vegetable leather / Oxide',badge:'LOW STOCK',colors:['#a93c28','#111'],image:'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=86'},
-  {id:5,name:'Transit Mac',type:'outerwear',price:280,detail:'Technical cotton / Sand',badge:'',colors:['#c0aa83','#393b39'],image:'https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=1000&q=86'},
-  {id:6,name:'Second Skin Top',type:'tops',price:95,detail:'Tencel jersey / Clay',badge:'NEW',colors:['#966855','#d7c8b8'],image:'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=86'},
-  {id:7,name:'Frame Sunglasses',type:'accessories',price:130,detail:'Bio acetate / Smoke',badge:'',colors:['#161616','#c4aa7a'],image:'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1000&q=86'},
-  {id:8,name:'Soft Geometry Tote',type:'accessories',price:210,detail:'Recycled nylon / Graphite',badge:'EXCLUSIVE',colors:['#2d2e2f','#806d55'],image:'https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=1000&q=86'}
+  {id:1,name:'Contour Wool Coat',type:'outerwear',price:320,detail:'Italian wool / Cocoa',badge:'NEW',colors:['#342e2b','#d9d1c2'],image:'assets/product-coat.jpg'},
+  {id:2,name:'Folded Shoulder Shirt',type:'tops',price:145,detail:'Organic poplin / Chalk',badge:'DROP 04',colors:['#e8e5dc','#1a1a1a'],image:'assets/product-shirt.jpg'},
+  {id:3,name:'Column Knit Dress',type:'tops',price:190,detail:'Merino blend / Ink',badge:'',colors:['#171717','#784c39'],image:'assets/product-dress.jpg'},
+  {id:4,name:'Arc Mini Bag',type:'accessories',price:175,detail:'Vegetable leather / Oxide',badge:'LOW STOCK',colors:['#a93c28','#111'],image:'assets/product-bag.jpg'},
+  {id:5,name:'Transit Mac',type:'outerwear',price:280,detail:'Technical cotton / Sand',badge:'',colors:['#c0aa83','#393b39'],image:'assets/product-mac.jpg'},
+  {id:6,name:'Second Skin Top',type:'tops',price:95,detail:'Tencel jersey / Clay',badge:'NEW',colors:['#966855','#d7c8b8'],image:'assets/product-top.jpg'},
+  {id:7,name:'Frame Sunglasses',type:'accessories',price:130,detail:'Bio acetate / Smoke',badge:'',colors:['#161616','#c4aa7a'],image:'assets/product-glasses.jpg'},
+  {id:8,name:'Soft Geometry Tote',type:'accessories',price:210,detail:'Recycled nylon / Graphite',badge:'EXCLUSIVE',colors:['#2d2e2f','#806d55'],image:'assets/product-tote.jpg'}
 ];
 
 let cart = [];
