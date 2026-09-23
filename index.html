@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VANTA / FORM — an editorial fashion commerce concept." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23ff4d2e%22/><text x=%2250%22 y=%2262%22 text-anchor=%22middle%22 font-size=%2248%22 font-family=%22Arial%22 fill=%22white%22>V</text></svg>">
+  <title>VANTA / FORM — New Forms for Every Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <div class="announcement">
+    <div class="marquee">
+      <span>FREE EXPRESS DELIVERY OVER €180</span><i>✦</i>
+      <span>NEW OBJECTS / DROP 04</span><i>✦</i>
+      <span>DESIGNED IN COPENHAGEN</span><i>✦</i>
+      <span>FREE EXPRESS DELIVERY OVER €180</span><i>✦</i>
+      <span>NEW OBJECTS / DROP 04</span><i>✦</i>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Vanta Form home">VANTA<span>/</span>FORM</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#new">New arrivals</a>
+      <a href="#collection">Collection</a>
+      <a href="#story">Journal</a>
+      <a href="#about">Studio</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-button" id="searchButton" aria-label="Open search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+      </button>
+      <button class="cart-button" id="cartButton" aria-label="Open cart">BAG <span id="cartCount">0</span></button>
+      <button class="menu-button" id="menuButton" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AUTUMN / WINTER 2026</p>
+        <h1>New forms<br>for <em>every</em> day.</h1>
+        <div class="hero-bottom">
+          <p>Quiet pieces with a bold point of view. Built to move, layer and live in.</p>
+          <a class="circle-link" href="#new" aria-label="Shop the new collection">
+            <span>SHOP<br>THE DROP</span>
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"/></svg>
+          </a>
+        </div>
+      </div>
+      <figure class="hero-image hero-image-main reveal">
+        <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1500&q=88" alt="Model wearing a sculptural neutral outfit" />
+        <figcaption><span>01</span> Soft structure / hard attitude</figcaption>
+      </figure>
+      <figure class="hero-image hero-image-small reveal">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=88" alt="Editorial womenswear styling" />
+        <figcaption>DROP 04 — CPH</figcaption>
+      </figure>
+      <div class="hero-sticker" aria-hidden="true">LIMITED<br>EDITION<br>2026</div>
+    </section>
+
+    <section class="intro" id="new">
+      <div>
+        <p class="eyebrow">JUST LANDED / 08 PIECES</p>
+        <h2>The new<br><span>essentials.</span></h2>
+      </div>
+      <p class="intro-copy">A compact wardrobe of elevated layers, clean lines and unexpected proportions. Made for repeat wear, not a single season.</p>
+    </section>
+
+    <section class="shop-section" id="collection">
+      <div class="filter-bar" role="toolbar" aria-label="Filter products">
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">All <sup>08</sup></button>
+          <button class="filter" data-filter="outerwear">Outerwear <sup>02</sup></button>
+          <button class="filter" data-filter="tops">Tops <sup>03</sup></button>
+          <button class="filter" data-filter="accessories">Objects <sup>03</sup></button>
+        </div>
+        <button class="sort-button">SORT: FEATURED <span>↓</span></button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="editorial" id="story">
+      <div class="editorial-image reveal">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1500&q=88" alt="Street style editorial" />
+        <span class="vertical-note">COPENHAGEN / 55.6761° N</span>
+      </div>
+      <div class="editorial-copy reveal">
+        <p class="eyebrow">FIELD NOTES / VOL. 04</p>
+        <h2>Life in<br><em>motion.</em></h2>
+        <p>We followed four creatives across Copenhagen for 24 hours. No styling brief. No fixed route. Just clothes that adapt to the person wearing them.</p>
+        <a href="#" class="text-link">READ THE STORY <span>↗</span></a>
+        <div class="editorial-stat"><strong>24</strong><span>HOURS<br>IN THE CITY</span></div>
+      </div>
+    </section>
+
+    <section class="values" id="about">
+      <p class="eyebrow">OUR APPROACH</p>
+      <div class="value-row reveal"><span>01</span><h3>Less, but <em>better.</em></h3><p>Small runs, considered materials and a wardrobe that earns its space.</p></div>
+      <div class="value-row reveal"><span>02</span><h3>Made to <em>move.</em></h3><p>Purposeful fits designed around real bodies and real days.</p></div>
+      <div class="value-row reveal"><span>03</span><h3>Keep it in <em>circulation.</em></h3><p>Repair support and resale credits extend the life of every piece.</p></div>
+    </section>
+
+    <section class="newsletter">
+      <div>
+        <p class="eyebrow">PRIVATE ACCESS</p>
+        <h2>Good things,<br>occasionally.</h2>
+      </div>
+      <form id="newsletterForm">
+        <label for="email">Email address</label>
+        <div><input id="email" type="email" placeholder="YOU@EXAMPLE.COM" required><button type="submit">JOIN ↗</button></div>
+        <p>No noise. New drops, studio notes and private releases.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <a class="brand brand-footer" href="#top">VANTA<span>/</span>FORM</a>
+      <div><p>EXPLORE</p><a href="#new">New arrivals</a><a href="#collection">Shop all</a><a href="#story">Journal</a></div>
+      <div><p>ASSISTANCE</p><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Contact</a></div>
+      <div><p>FOLLOW</p><a href="#">Instagram ↗</a><a href="#">Pinterest ↗</a><a href="#">TikTok ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 VANTA / FORM</span><span>CONCEPT STORE — NOT FOR RESALE</span><span>EN / EUR</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-head"><h2>Your bag</h2><button class="close-button" data-close="cart">CLOSE ×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>0</span><p>Your bag is waiting.</p><button data-close="cart">DISCOVER THE COLLECTION</button></div></div>
+    <div class="cart-summary" id="cartSummary"><div><span>SUBTOTAL</span><strong>€0</strong></div><p>Taxes included. Shipping calculated at checkout.</p><button class="checkout-button">SECURE CHECKOUT →</button></div>
+  </aside>
+
+  <div class="search-panel" id="searchPanel" aria-hidden="true">
+    <button class="close-button" data-close="search">CLOSE ×</button>
+    <p class="eyebrow">SEARCH THE ARCHIVE</p>
+    <div class="search-input-wrap"><input id="searchInput" type="search" placeholder="TYPE SOMETHING"><span>↵</span></div>
+    <div class="search-suggestions"><span>POPULAR:</span><button data-query="coat">COAT</button><button data-query="bag">BAG</button><button data-query="black">BLACK</button></div>
+  </div>
+
+  <div class="quick-view" id="quickView" role="dialog" aria-modal="true" aria-hidden="true"></div>
+  <div class="toast" id="toast">Added to your bag</div>
+  <script src="script.js"></script>
+</body>
+</html>
